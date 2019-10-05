@@ -63,4 +63,125 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+.content{
+	max-width: 70%;
+	margin: auto;
+	background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+	min-height: 100%;
+}
+
+body{
+	background-color:rgb(86, 136, 156);
+ 	
+}
+
+.navigation{
+	background-color:rgb(86, 136, 156);
+	position: fixed;
+	z-index: 10;
+	border: 5px solid black;
+}
+
+.navigation a{
+	display: inline-block;
+	margin: 20px 50.4px;
+	padding: 15px;
+	color: rgb(16, 2, 54);
+	text-decoration: none;
+	font-family: 'Mansalva', cursive;
+}
+
+.navigation a:hover{
+	color: blue;
+	text-shadow: 2px 2px 5px rgb(72, 19, 85);
+}
+
+header {
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	margin: 50px 200px 50px 200px;
+	padding: 50px;
+	text-align:center;
+	font-size:86px;
+}
+
+
+.getStarted{
+	font-size:20px;
+	padding: 10px;
+	margin: 10px;
+	border: 3px solid black;
+	font-family: 'Mansalva', cursive;
+
+}
+
+.topImg{
+
+	display:inline-block;
+	margin: 150px 100px 15px 0px;
+}
+
+.topContent{
+	border-top: 1px solid gray;
+	padding: 10px 0px 10px 0px;
+	
+}
+
+h2{
+	padding: 10px;
+	margin: 10px 0px 50px 20px;
+	display: inline-block;
+	position: absolute;
+}
+
+.aboveContent p{
+	width: 655px;
+	height: 50px;
+	padding: 10px 10px 10px 30px;
+	margin: 50px 0px 50px 0px;
+	display: inline-block;
+}
+
+.middle-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+}
+
+.belowContent{
+	border-bottom: 1px solid gray;
+	padding: 10px 0px 10px 0px;
+	margin: 30px 0px 50px 35px;
+}
+
+.belowContent p{
+	width: 400px;
+	height: 50px;
+	padding: 10px;
+	margin: 50px 0px 50px 0px;
+	display: inline-block;
+}
+
+address{
+	width: 300px;
+	height: 50px;
+	padding: 10px;
+	margin: 50px 0px 50px 0px;
+	display: inline-block;
+}
+
+address p{
+	padding: 10px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+footer{
+	padding: 10px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	font-family: 'Mansalva', cursive;
+}
