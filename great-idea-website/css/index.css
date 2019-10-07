@@ -73,15 +73,15 @@ h1, h2, h3, h4, h5 {
 }
 
 body{
-	background-color:rgb(86, 136, 156);
+	background-color:cadetblue;
  	
 }
 
 .navigation{
-	background-color:rgb(86, 136, 156);
+	background-color:powderblue;
 	position: fixed;
 	z-index: 10;
-	border: 5px solid black;
+	border: 5px solid teal;
 }
 
 .navigation a{
@@ -94,7 +94,7 @@ body{
 }
 
 .navigation a:hover{
-	color: blue;
+	color: teal;
 	text-shadow: 2px 2px 5px rgb(72, 19, 85);
 }
 
